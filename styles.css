@@ -1,0 +1,162 @@
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol {
+margin: 0;
+padding: 0;
+background-position: 25%;
+font-family: Arial, Helvetica, sans-serif;
+color: black;
+    background-color: #92a8d1;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+  }
+
+  header {
+    background-color: #0084ff;
+    color: #fff;
+    text-align: center;
+    padding: 1px;
+  }
+  
+  /* nav {
+    background-color: #ff8800;
+    display: flex;
+    justify-content:left
+    padding: 0.5rem 0;
+  }
+   */
+  nav a {
+    color: #fff;
+    margin: 0 1.5rem;
+    text-decoration: none;
+    transition: background-color 3s;
+  }
+  
+  nav a:hover {
+    background-color: #0066ff;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+  }
+  
+  main {
+    display: flex;
+    justify-content:left;
+    padding: 1rem 5%;
+    background-color: #fff;
+  }
+  
+  article,
+  section {
+    flex: 1;
+    margin: 1rem;
+    color: #000000;
+    background-color: #e6e6e6;
+  }
+  
+  article img,
+  section img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+  }
+  
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+.input-container {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .icon {
+    padding: 10px;
+    background: dodgerblue;
+    color: white;
+    min-width: 50px;
+    text-align: center;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+  }
+  
+  .input-field:focus {
+    border: 2px solid dodgerblue;
+  }
+
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Styling Form Elements */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="file"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+select {
+    height: 35px;
+}
+
+/* Styling Submit Button */
+button[type="submit"] {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
